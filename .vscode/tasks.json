@@ -1,0 +1,24 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "g++.exe build active file",
+            "command": "g++",
+            "args": [
+                "-g",
+                "main.cpp",
+                "sudoku_utils.cpp",
+                "Grid.cpp",
+                "Square.cpp",
+                "-o",
+                "output.exe",
+                "-std=c++11"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ],
+    "version": "2.0.0"
+}
